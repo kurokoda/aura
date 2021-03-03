@@ -11,7 +11,7 @@ const ConnectedGlobalRecords = () => {
   const mapStateToProps = ({ records }) => {
     return {
       recordsList: records.data.list,
-      recordsLoadingErrors: records.error
+      recordsLoadingErrors: records.error,
     };
   };
 
