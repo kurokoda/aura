@@ -3,8 +3,8 @@ import React from "react";
 
 // Components
 import { Home } from "Internal/pages/Home";
-import { GlobalRecords } from "pages/GlobalRecords";
-import { Timer } from "pages/Timer";
+import { ConnectedGlobalRecords } from "views/pages/GlobalRecords";
+import { Timer } from "views/pages/Timer";
 
 // Sub-component
 function NotFound() {
@@ -19,7 +19,7 @@ const routes = [
     path: "/",
   },
   {
-    component: GlobalRecords,
+    component: ConnectedGlobalRecords,
     path: "/records",
   },
   {
